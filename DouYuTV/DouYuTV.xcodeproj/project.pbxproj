@@ -11,6 +11,11 @@
 		CF10AF4F1EAD9E1800E7469A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10AF4D1EAD9E1800E7469A /* Main.storyboard */; };
 		CF10AF511EAD9E1800E7469A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF10AF501EAD9E1800E7469A /* Assets.xcassets */; };
 		CF10AF541EAD9E1800E7469A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10AF521EAD9E1800E7469A /* LaunchScreen.storyboard */; };
+		CF10AF8D1EADF71700E7469A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10AF8B1EADF71700E7469A /* Home.storyboard */; };
+		CF10AF921EADF81000E7469A /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10AF901EADF81000E7469A /* Live.storyboard */; };
+		CF10AF951EADF83700E7469A /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10AF931EADF83700E7469A /* Follow.storyboard */; };
+		CF10AF981EADF85C00E7469A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10AF961EADF85C00E7469A /* Profile.storyboard */; };
+		CF10AF9A1EADFA3C00E7469A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10AF991EADFA3C00E7469A /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		CF10AF501EAD9E1800E7469A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF10AF531EAD9E1800E7469A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF10AF551EAD9E1800E7469A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF10AF8C1EADF71700E7469A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		CF10AF911EADF81000E7469A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		CF10AF941EADF83700E7469A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		CF10AF971EADF85C00E7469A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		CF10AF991EADFA3C00E7469A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +64,6 @@
 			children = (
 				CF10AF491EAD9E1800E7469A /* AppDelegate.swift */,
 				CF10AF5B1EADB06300E7469A /* Classes */,
-				CF10AF4D1EAD9E1800E7469A /* Main.storyboard */,
 				CF10AF501EAD9E1800E7469A /* Assets.xcassets */,
 				CF10AF521EAD9E1800E7469A /* LaunchScreen.storyboard */,
 				CF10AF551EAD9E1800E7469A /* Info.plist */,
@@ -90,6 +99,7 @@
 		CF10AF5D1EADB06300E7469A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CF10AF931EADF83700E7469A /* Follow.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -129,6 +139,7 @@
 		CF10AF621EADB06300E7469A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CF10AF8B1EADF71700E7469A /* Home.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,6 +179,7 @@
 		CF10AF671EADB06300E7469A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CF10AF901EADF81000E7469A /* Live.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -207,6 +219,8 @@
 		CF10AF6C1EADB06300E7469A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CF10AF4D1EAD9E1800E7469A /* Main.storyboard */,
+				CF10AF991EADFA3C00E7469A /* MainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -246,6 +260,7 @@
 		CF10AF711EADB06300E7469A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CF10AF961EADF85C00E7469A /* Profile.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -380,6 +395,10 @@
 				CF10AF541EAD9E1800E7469A /* LaunchScreen.storyboard in Resources */,
 				CF10AF511EAD9E1800E7469A /* Assets.xcassets in Resources */,
 				CF10AF4F1EAD9E1800E7469A /* Main.storyboard in Resources */,
+				CF10AF921EADF81000E7469A /* Live.storyboard in Resources */,
+				CF10AF8D1EADF71700E7469A /* Home.storyboard in Resources */,
+				CF10AF981EADF85C00E7469A /* Profile.storyboard in Resources */,
+				CF10AF951EADF83700E7469A /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF10AF4A1EAD9E1800E7469A /* AppDelegate.swift in Sources */,
+				CF10AF9A1EADFA3C00E7469A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +423,7 @@
 				CF10AF4E1EAD9E1800E7469A /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		CF10AF521EAD9E1800E7469A /* LaunchScreen.storyboard */ = {
@@ -411,6 +432,42 @@
 				CF10AF531EAD9E1800E7469A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CF10AF8B1EADF71700E7469A /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF10AF8C1EADF71700E7469A /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		CF10AF901EADF81000E7469A /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF10AF911EADF81000E7469A /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../../Main/Controller;
+			sourceTree = "<group>";
+		};
+		CF10AF931EADF83700E7469A /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF10AF941EADF83700E7469A /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../../Main/Controller;
+			sourceTree = "<group>";
+		};
+		CF10AF961EADF85C00E7469A /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF10AF971EADF85C00E7469A /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../../Main/Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -513,8 +570,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = FC96YVXTWZ;
 				INFOPLIST_FILE = DouYuTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GPW.DouYuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,8 +585,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = FC96YVXTWZ;
 				INFOPLIST_FILE = DouYuTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GPW.DouYuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
