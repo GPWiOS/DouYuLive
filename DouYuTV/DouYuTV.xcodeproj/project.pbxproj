@@ -19,8 +19,8 @@
 		CF10AFD11EAE0F7A00E7469A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10AFD01EAE0F7A00E7469A /* HomeViewController.swift */; };
 		CF10AFD41EAE42F000E7469A /* UIBarButtonItem-Extesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10AFD31EAE42F000E7469A /* UIBarButtonItem-Extesion.swift */; };
 		CF10AFD61EAE4C3C00E7469A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10AFD51EAE4C3C00E7469A /* Common.swift */; };
-		CF10AFD81EAE4FF800E7469A /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10AFD71EAE4FF800E7469A /* PageTitleView.swift */; };
 		CF10AFDA1EAE580B00E7469A /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10AFD91EAE580B00E7469A /* UIColor-Extension.swift */; };
+		CF10AFE01EB3A9D100E7469A /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10AFDF1EB3A9D100E7469A /* PageTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +38,8 @@
 		CF10AFD01EAE0F7A00E7469A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CF10AFD31EAE42F000E7469A /* UIBarButtonItem-Extesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extesion.swift"; sourceTree = "<group>"; };
 		CF10AFD51EAE4C3C00E7469A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
-		CF10AFD71EAE4FF800E7469A /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		CF10AFD91EAE580B00E7469A /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		CF10AFDF1EB3A9D100E7469A /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,7 +246,7 @@
 		CF10AFAF1EAE099C00E7469A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CF10AFD71EAE4FF800E7469A /* PageTitleView.swift */,
+				CF10AFDF1EB3A9D100E7469A /* PageTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -432,7 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF10AFD81EAE4FF800E7469A /* PageTitleView.swift in Sources */,
+				CF10AFE01EB3A9D100E7469A /* PageTitleView.swift in Sources */,
 				CF10AF4A1EAD9E1800E7469A /* AppDelegate.swift in Sources */,
 				CF10AFBC1EAE099C00E7469A /* MainViewController.swift in Sources */,
 				CF10AFD11EAE0F7A00E7469A /* HomeViewController.swift in Sources */,
@@ -643,6 +643,7 @@
 				CF10AF5A1EAD9E1800E7469A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
