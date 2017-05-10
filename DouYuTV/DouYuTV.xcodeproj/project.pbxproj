@@ -21,6 +21,7 @@
 		CF10AFD61EAE4C3C00E7469A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10AFD51EAE4C3C00E7469A /* Common.swift */; };
 		CF10AFDA1EAE580B00E7469A /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10AFD91EAE580B00E7469A /* UIColor-Extension.swift */; };
 		CF10AFE01EB3A9D100E7469A /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10AFDF1EB3A9D100E7469A /* PageTitleView.swift */; };
+		CF5C92E41EC3175F00D5291F /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C92E31EC3175F00D5291F /* PageContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		CF10AFD51EAE4C3C00E7469A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		CF10AFD91EAE580B00E7469A /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		CF10AFDF1EB3A9D100E7469A /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		CF5C92E31EC3175F00D5291F /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				CF10AFDF1EB3A9D100E7469A /* PageTitleView.swift */,
+				CF5C92E31EC3175F00D5291F /* PageContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				CF10AFE01EB3A9D100E7469A /* PageTitleView.swift in Sources */,
 				CF10AF4A1EAD9E1800E7469A /* AppDelegate.swift in Sources */,
 				CF10AFBC1EAE099C00E7469A /* MainViewController.swift in Sources */,
+				CF5C92E41EC3175F00D5291F /* PageContentView.swift in Sources */,
 				CF10AFD11EAE0F7A00E7469A /* HomeViewController.swift in Sources */,
 				CF10AFD61EAE4C3C00E7469A /* Common.swift in Sources */,
 				CF10AFDA1EAE580B00E7469A /* UIColor-Extension.swift in Sources */,
