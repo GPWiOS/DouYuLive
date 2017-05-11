@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionPrettyCell" customModule="DouYuTV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="313" height="325"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="313" height="325"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7b-Kd-n5w">
+                        <rect key="frame" x="247" y="295" width="56" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="fTf-uL-f1J"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="  上海市" image="ico_location">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="It3-tt-FvP" colorLabel="IBBuiltInLabel-Red">
+                        <rect key="frame" x="10" y="295" width="232" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="CKl-6b-OY5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="  我是你的亲亲宝贝我是你的亲亲宝贝我是你的亲亲宝贝" image="my_video_user">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="live_cell_default_phone" translatesAutoresizingMaskIntoConstraints="NO" id="RJh-WO-bC4">
+                        <rect key="frame" x="0.0" y="0.0" width="313" height="290"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gS-fn-q0o">
+                        <rect key="frame" x="248" y="5" width="60" height="20"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="2lT-nw-Ckb"/>
+                            <constraint firstAttribute="width" constant="60" id="Y14-4X-LqP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="  9999" image="close_view_persons">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="c7b-Kd-n5w" secondAttribute="bottom" constant="10" id="7ZB-cr-HKy"/>
+                <constraint firstItem="It3-tt-FvP" firstAttribute="top" secondItem="RJh-WO-bC4" secondAttribute="bottom" constant="5" id="7cK-Rr-7l5"/>
+                <constraint firstItem="1gS-fn-q0o" firstAttribute="top" secondItem="RJh-WO-bC4" secondAttribute="top" constant="5" id="H2L-cA-57s"/>
+                <constraint firstAttribute="bottom" secondItem="It3-tt-FvP" secondAttribute="bottom" constant="10" id="Khi-ty-a8i"/>
+                <constraint firstItem="RJh-WO-bC4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="V2q-hA-eNi"/>
+                <constraint firstItem="1gS-fn-q0o" firstAttribute="trailing" secondItem="RJh-WO-bC4" secondAttribute="trailing" constant="-5" id="YN5-hD-NCm"/>
+                <constraint firstAttribute="trailing" secondItem="c7b-Kd-n5w" secondAttribute="trailing" constant="10" id="Zpa-Yx-A5F"/>
+                <constraint firstAttribute="trailing" secondItem="RJh-WO-bC4" secondAttribute="trailing" id="fbw-FK-XAV"/>
+                <constraint firstItem="RJh-WO-bC4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="m4A-Vh-ecq"/>
+                <constraint firstItem="It3-tt-FvP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="msF-G0-BEb"/>
+                <constraint firstItem="c7b-Kd-n5w" firstAttribute="leading" secondItem="It3-tt-FvP" secondAttribute="trailing" constant="5" id="zyt-rP-yGG"/>
+            </constraints>
+            <size key="customSize" width="313" height="325"/>
+            <point key="canvasLocation" x="-138.5" y="102.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="close_view_persons" width="10" height="10"/>
+        <image name="ico_location" width="12" height="12"/>
+        <image name="live_cell_default_phone" width="103" height="103"/>
+        <image name="my_video_user" width="12" height="12"/>
+    </resources>
+</document>

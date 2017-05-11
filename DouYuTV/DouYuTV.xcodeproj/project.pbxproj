@@ -22,6 +22,13 @@
 		CF10AFDA1EAE580B00E7469A /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10AFD91EAE580B00E7469A /* UIColor-Extension.swift */; };
 		CF10AFE01EB3A9D100E7469A /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10AFDF1EB3A9D100E7469A /* PageTitleView.swift */; };
 		CF5C92E41EC3175F00D5291F /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C92E31EC3175F00D5291F /* PageContentView.swift */; };
+		CF5C92E61EC4505C00D5291F /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C92E51EC4505C00D5291F /* RecommendViewController.swift */; };
+		CF5C92E91EC4641100D5291F /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C92E71EC4641100D5291F /* CollectionHeaderView.swift */; };
+		CF5C92EA1EC4641100D5291F /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF5C92E81EC4641100D5291F /* CollectionHeaderView.xib */; };
+		CF5C92ED1EC4688200D5291F /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C92EB1EC4688200D5291F /* CollectionNormalCell.swift */; };
+		CF5C92EE1EC4688200D5291F /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF5C92EC1EC4688200D5291F /* CollectionNormalCell.xib */; };
+		CF5C92F11EC4755F00D5291F /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C92EF1EC4755F00D5291F /* CollectionPrettyCell.swift */; };
+		CF5C92F21EC4756000D5291F /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF5C92F01EC4755F00D5291F /* CollectionPrettyCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +49,13 @@
 		CF10AFD91EAE580B00E7469A /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		CF10AFDF1EB3A9D100E7469A /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		CF5C92E31EC3175F00D5291F /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		CF5C92E51EC4505C00D5291F /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		CF5C92E71EC4641100D5291F /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		CF5C92E81EC4641100D5291F /* CollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		CF5C92EB1EC4688200D5291F /* CollectionNormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
+		CF5C92EC1EC4688200D5291F /* CollectionNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
+		CF5C92EF1EC4755F00D5291F /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		CF5C92F01EC4755F00D5291F /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +167,7 @@
 			children = (
 				CF10AFC01EAE0A7D00E7469A /* Home.storyboard */,
 				CF10AFD01EAE0F7A00E7469A /* HomeViewController.swift */,
+				CF5C92E51EC4505C00D5291F /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -250,6 +265,12 @@
 			children = (
 				CF10AFDF1EB3A9D100E7469A /* PageTitleView.swift */,
 				CF5C92E31EC3175F00D5291F /* PageContentView.swift */,
+				CF5C92E71EC4641100D5291F /* CollectionHeaderView.swift */,
+				CF5C92E81EC4641100D5291F /* CollectionHeaderView.xib */,
+				CF5C92EB1EC4688200D5291F /* CollectionNormalCell.swift */,
+				CF5C92EC1EC4688200D5291F /* CollectionNormalCell.xib */,
+				CF5C92EF1EC4755F00D5291F /* CollectionPrettyCell.swift */,
+				CF5C92F01EC4755F00D5291F /* CollectionPrettyCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -419,10 +440,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF10AFCE1EAE0A7D00E7469A /* Main.storyboard in Resources */,
+				CF5C92EA1EC4641100D5291F /* CollectionHeaderView.xib in Resources */,
+				CF5C92EE1EC4688200D5291F /* CollectionNormalCell.xib in Resources */,
 				CF10AF541EAD9E1800E7469A /* LaunchScreen.storyboard in Resources */,
 				CF10AFCF1EAE0A7D00E7469A /* Profile.storyboard in Resources */,
 				CF10AF511EAD9E1800E7469A /* Assets.xcassets in Resources */,
 				CF10AFCD1EAE0A7D00E7469A /* Live.storyboard in Resources */,
+				CF5C92F21EC4756000D5291F /* CollectionPrettyCell.xib in Resources */,
 				CF10AFCA1EAE0A7D00E7469A /* Follow.storyboard in Resources */,
 				CF10AFCB1EAE0A7D00E7469A /* Home.storyboard in Resources */,
 			);
@@ -436,12 +460,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF10AFE01EB3A9D100E7469A /* PageTitleView.swift in Sources */,
+				CF5C92E91EC4641100D5291F /* CollectionHeaderView.swift in Sources */,
 				CF10AF4A1EAD9E1800E7469A /* AppDelegate.swift in Sources */,
+				CF5C92E61EC4505C00D5291F /* RecommendViewController.swift in Sources */,
 				CF10AFBC1EAE099C00E7469A /* MainViewController.swift in Sources */,
 				CF5C92E41EC3175F00D5291F /* PageContentView.swift in Sources */,
 				CF10AFD11EAE0F7A00E7469A /* HomeViewController.swift in Sources */,
 				CF10AFD61EAE4C3C00E7469A /* Common.swift in Sources */,
 				CF10AFDA1EAE580B00E7469A /* UIColor-Extension.swift in Sources */,
+				CF5C92F11EC4755F00D5291F /* CollectionPrettyCell.swift in Sources */,
+				CF5C92ED1EC4688200D5291F /* CollectionNormalCell.swift in Sources */,
 				CF10AFD41EAE42F000E7469A /* UIBarButtonItem-Extesion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
